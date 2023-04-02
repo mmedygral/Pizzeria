@@ -1,0 +1,151 @@
+:root{
+    box-sizing:border-box;
+    color:white;
+    scroll-behavior: smooth;
+}
+*, ::before, ::after{
+    box-sizing:inherit;
+}
+body{
+    background: url(https://cdn.pixabay.com/photo/2017/04/05/01/20/wood-2203740_1280.jpg);
+}
+#header{
+    background: black;
+    font-family: "Cookie", cursive;
+    position:sticky;
+    top:0;
+    z-index:1;
+}
+.logo{
+    float:left;
+    width:20%;
+}
+.logo img{
+    width:60px;
+    margin:5px 10px;
+}
+.menu{
+    float:left;
+    width:60%;
+    text-align: center;
+}
+.tel{
+    float:left;
+    width:20%;
+    text-align:center;
+    margin-top:25px;
+    font-size:1.2rem;
+}
+.clearfix::after{
+    content:' ';
+    display:block;
+    clear:both;
+}
+.menu ul li{
+    display:inline-block;
+    padding-right:50px;
+}
+.menu ul li a{
+    color:white;
+    font-size: 1.3rem;
+}
+.menu ul li a:hover{
+    color:#FFD77F;
+}
+.slider-box{
+    height:300px;
+    background-color: black;
+}
+.slider-half-item{
+    width:50%;
+    float:left;
+    height:100%;
+    font-family: cursive, gene;
+}
+.textslider{
+    margin:50px;
+    padding-left:20px;
+}
+.button-section{
+    margin-top:2rem;
+}
+.button{
+    margin:6px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.order-button{
+    color:#7FD7FF;
+    border:2px solid #7FD7FF;
+    padding:5px;
+}
+.order-res{
+    color:#FFD77F;
+    border:2px solid #FFD77F;
+    padding:5px;
+    background-color: #936c02;
+}
+.order-button:hover, .order-res:hover{
+    background-color:#333333;
+}
+.pizza-img{
+    background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-position: center center;
+}
+.container-img{
+    background-color: transparent;
+}
+.img1{
+    float:left;
+    width:33%;
+    padding:30px;
+    margin:30px 0px 30px;
+}
+.img2{
+    position: relative;
+    height:200px;
+    border:5px solid black;
+    text-align: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.najlepsze-składniki{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/24/13/29/olive-oil-1412361__340.jpg");
+}
+.oryginalna-receptura{
+    background-image: url("https://cdn.pixabay.com/photo/2016/05/06/12/15/cook-1375788_960_720.jpg");
+}
+.szybka-dostawa{
+    background-image: url("https://cdn.pixabay.com/photo/2020/02/10/18/31/motor-scooter-4837310_960_720.jpg");
+}
+.text-składniki{
+    position: absolute;
+    right: 10px;
+    bottom:10px;
+    font-family: "Cookie", cursive;
+    font-size:1.5rem;
+}
+
+.kitchen-menu{
+    background-color: black;
+}
+.menu-one-fourth{
+    float:left;
+    width:25%;
+    font-family: cursive;
+    padding:20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+.menu-one-fourth img{
+    width:100%;
+}
+
+.page-footer{
+    background-color: black;
+    width:100%;
+    font-family: "Cookie", cursive;
+}
